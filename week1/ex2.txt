@@ -1,0 +1,10 @@
+    1  sudo su 
+    2  ls
+    3  sudo pacman -S --help
+    4  sudo pacman -Ss nvidia
+    5  sudo pacman -Ss nvidia | head
+    6  pacman -Suy
+    7  sudo pacman -Suy
+    8  vim /etc/grub.d/40_custom
+    9  cd /etc/grub.d/
+   10  vim 40_custom
