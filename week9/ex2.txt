@@ -1,0 +1,11 @@
+If we have the given sequnce with fixed values of references we can increase
+and decrease hit ration by permutating the sequence elements.
+
+To increase the hit ratio we should sort our references such way that same references
+goes one after another. It will increase hits by number of repetiotions of same references.
+
+To decrease the hit ratio we should separate the reference inputs in such way that the
+distance between same references maximum.
+
+
+Danil Kalinin BS17-05
