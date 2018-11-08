@@ -1,0 +1,10 @@
+./copy_basic.out tmp1.2M.txt tmpn.txt  0.00s user 0.01s system 94% cpu 0.009 total
+./copy8.o tmp1.2M.txt tmpn.txt  0.04s user 0.15s system 99% cpu 0.197 total
+./copy16.o tmp1.2M.txt tmpn.txt  0.02s user 0.10s system 98% cpu 0.122 total
+./copy32.o tmp1.2M.txt tmpn.txt  0.00s user 0.07s system 96% cpu 0.069 total
+./copy64.o tmp1.2M.txt tmpn.txt  0.01s user 0.04s system 94% cpu 0.044 total
+./copy128.o tmp1.2M.txt tmpn.txt  0.00s user 0.02s system 95% cpu 0.026 total
+
+Increasing buff size decreases the amount of iterations to copy the file
+
+Allowing O_SYNC flag decreases time dramatically so this functions > 1 minute each
